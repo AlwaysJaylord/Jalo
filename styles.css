@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0c3fc; /* Light purple background */
+    color: #4b0082; /* Dark purple text */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+}
+
+.greeting-card {
+    background-color: #9b59b6; /* Purple card */
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    margin: auto;
+}
+
+.birthday-image {
+    width: 100%;
+    border-radius: 10px;
+}
+
+h1 {
+    margin: 20px 0;
+    font-size: 2.5em;
+}
+
+p {
+    margin: 10px 0;
+    font-size: 1.2em;
+}
+
+button {
+    background-color: #8e44ad; /* Button purple */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #732d91; /* Darker purple on hover */
+}
+
+.hidden {
+    display: none;
+}
+
+/* Responsive styles */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 2em;
+    }
+
+    p {
+        font-size: 1em;
+    }
+
+    button {
+        width: 100%;
+    }
+}
